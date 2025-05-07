@@ -51,24 +51,24 @@ This repository contains an optimized and refactored implementation of the Aux-D
 - Context managers for safe file I/O
 
 #### run_all.py (New)
-Batch Experiment Orchestration System
-Added to automate and streamline large-scale experiments:
-Centralized configuration management for hyperparameter combinations
-Supports combinatorial parameter testing through grid configuration
-Sequential execution of different model variants
-Automatic dataset switching between experiments
-Direct integration with parse_logs.py for automatic result analysis
-Structured log file naming convention for experiment tracing
-Visual progress bar with time estimation
+- Batch Experiment Orchestration System
+- Added to automate and streamline large-scale experiments:
+- Centralized configuration management for hyperparameter combinations
+- Supports combinatorial parameter testing through grid configuration
+- Sequential execution of different model variants
+- Automatic dataset switching between experiments
+- Direct integration with parse_logs.py for automatic result analysis
+- Structured log file naming convention for experiment tracing
+- Visual progress bar with time estimation
 
 #### dataset.py
-Optimized Data Handling System
-Memory-mapped data loading for large datasets
-On-the-fly feature scaling and normalization
-Dynamic mask application for auxiliary features
-Built-in support for variable probability distributions
-Automatic schema verification
-Unified interface for all supported datasets
+- Optimized Data Handling System
+- Memory-mapped data loading for large datasets
+- On-the-fly feature scaling and normalization
+- Dynamic mask application for auxiliary features
+- Built-in support for variable probability distributions
+- Automatic schema verification
+- Unified interface for all supported datasets
 
 ## Repository Structure
 ```
